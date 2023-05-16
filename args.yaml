@@ -1,0 +1,46 @@
+DEFAULT: &DEFAULT
+  black_list: [1,2,0]
+
+
+DMG: &DMG
+  model_name: DMG
+  <<: *DEFAULT
+
+DMG-acm-Node: &DMG-acm-Node
+  <<: *DMG
+  num_iters: 200
+  decolayer: 3
+  alpha: 0.02
+  beta: 0.8
+  lammbda: 3
+  tau: 0.5
+
+DMG-imdb-Node: &DMG-imdb-Node
+  <<: *DMG
+  num_iters: 70
+  hid_units: 512
+  alpha: 0.06
+  beta: 1
+  lammbda: 0.5
+  tau: 0.5
+
+DMG-freebase-Node: &DMG-freebase-Node
+  <<: *DMG
+  num_iters: 200
+  alpha: 0.6
+  beta: 0.8
+  lammbda: 0.5
+  sample_neighbor: 50
+  tau: 0.7
+
+DMG-dblp-Node: &DMG-dblp-Node
+  <<: *DMG
+  feature_drop: 0.1
+  num_iters: 400
+  alpha: 0.1
+  beta: 0.05
+  lammbda: 0.05
+  tau: 0.7
+  test_epo: 300
+  test_lr: 0.05
+
