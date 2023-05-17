@@ -23,6 +23,9 @@ Important args:
 ## Training
 python main.py
 
+## Testing
+use_pretrain == 'True'
+
 ## Citation
 ```shell
 @InProceedings{Mo_ICML_2023, 
