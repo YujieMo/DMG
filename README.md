@@ -27,7 +27,7 @@ python main.py
 ```shell
 @InProceedings{Mo_ICML_2023, 
 title={Disentangled Multiplex Graph Representation Learning}, 
-booktitle={Proceedings of the 31st International Conference on Machine Learning}, 
+booktitle={Proceedings of the 40st International Conference on Machine Learning}, 
 author={Mo, Yujie and Lei, Yajie and Shen, Jialie and Shi, Xiaoshuang and Shen, Heng Tao and Zhu, Xiaofeng},
 year={2023}
 }
