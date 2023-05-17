@@ -11,16 +11,14 @@ This repository contains the reference code for the manuscript ``Disentangled Mu
 
 ## Installation
 * pip install -r requirements.txt 
-* unzip the datasets
+* Download the datasets
+* Download the trained models
 
 ## Preparation
 Important args:
 * `--use_pretrain` Test checkpoints
 * `--dataset` acm, imdb, dblp, freebase
-* `--custom_key` Node: node classification  Clu: node clustering 
+* `--custom_key` Node: node classification
 
 ## Training
 python main.py
-
-## Test
-Choose the custom_key of different downstream tasks
