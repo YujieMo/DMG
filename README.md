@@ -32,6 +32,8 @@ use_pretrain == 'True'
 title={Disentangled Multiplex Graph Representation Learning}, 
 booktitle={Proceedings of the 40st International Conference on Machine Learning}, 
 author={Mo, Yujie and Lei, Yajie and Shen, Jialie and Shi, Xiaoshuang and Shen, Heng Tao and Zhu, Xiaofeng},
+volume={202},
+pages={24983--25005},
 year={2023}
 }
 ```
